@@ -1,6 +1,6 @@
 #include<vector>
 #include<iostream>
-
+/*这是最直观的版本，效率较低，时间复杂度o(n^2)；降低时间复杂度可以使用hashmap,可以遍历两次，先把所有值存进去，再比较，也可以直接遍历一次。*/
 using namespace std;
 vector<int> twoSum(vector<int>& nums, int target);
 int main() {
